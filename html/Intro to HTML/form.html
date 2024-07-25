@@ -1,0 +1,89 @@
+<!DOCTYPE >
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+<body>
+    <form method="">
+    <h1>Form</h1>
+    
+    <label for="Name">Name:</label>
+      
+      <input
+        type="text"
+        name="Name"
+        placeholder="Enter your full name"
+        required
+      />
+      Email:
+      <input
+        type="email"
+        name="email"
+        placeholder="Enter your email address"
+        value="goku@gmail.com"
+        required
+      />
+      phone Number :
+      <input
+        name="phone"
+        type="number"
+        placeholder="phone-number"
+        maxlength="10"
+      />
+      <br /><br />
+      password: <input type="password" required name="password" />
+      <br />
+      Graduation Date: <input name="graduation-date" type="date" /> <br /><br />
+      Time of meeting: <input name="meeting-time" type="time" />
+
+      Select all of hobbies from options below:
+      <br />
+      <input type="checkbox" name="hobbies" value="Swimming">Swimming</html>
+    <br>
+      <input type="checkbox"  name="hobbies" value="Dancing">Dancing</input>
+      <br>
+      <input type="checkbox" name="hobbies" value="coding">Coding</input>
+
+      <br><br>
+
+      upload your resume 
+      <input type="file" name="resume">
+
+
+      <br><br>
+      How much do you rate yourself in 
+      <input type="range" name="rating" min="0" max="100" step="10">
+
+      select your birth year
+      <select name="birth-year" >
+        <option value="">choose year</option>
+        <option value="1998">1998</option>
+        <option value="1999">1999</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+      </select>
+
+      <br><br>
+
+      <textarea maxlength="200" name="description" id="description" rows="3" cols="10" placeholder="please describe your self"></textarea>
+
+      <br><br>
+      Are you married
+       <input type="radio" value="true" >yes</input>
+       <input type="radio" value="false">no</input>
+       <br><br>
+       <button type="Submit">submit</button>
+       <button type="reset" disabled>reset</button>
+      
+
+       <br><br>
+
+      
+    </form>
+  </body>
+</html>
+
+
+
